@@ -110,6 +110,10 @@
 /* ------------------------------------------------------------ */
 /* INIZIO PORTFOLIO */
 
+.portfolio {
+    padding-bottom: 96px;
+}
+
 .portfolio h2 {
     font-size: 40px;
     font-weight: 700;
@@ -128,9 +132,51 @@
     padding-bottom: 25px;
 }
 
-
-
-
-
 /* ------------------------------------------------------------ */
 /* FINE PORTFOLIO */
+/* ------------------------------------------------------------ */
+/* INIZIO ABOUT */
+
+.about {
+    background-color: #1abc9c;
+    color: white;
+    padding: 96px 0;
+}
+
+.about h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.about .icona {
+    margin: 20px 0 24px 0;
+}
+
+.about p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+#free {
+    padding: 16px 28px;
+    font-size: 20px;
+    font-weight: 400px;
+    border: solid white;
+    border-radius: 8px;
+    background-color: #1abc9c;
+    margin-top: 24px;
+    font-weight: 24px;
+    cursor: pointer;
+}
+
+#free:hover {
+    background-color: white;
+    color:black;
+}
+/* ------------------------------------------------------------ */
+/* FINE ABOUT */
