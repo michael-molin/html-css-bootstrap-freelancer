@@ -7,11 +7,34 @@
     margin: 20px 0 24px;
 }
 
-/* .glyphicon-star:before , .glyphicon-star::after {
+.icona {
+    display:inline-block;
+    position: relative;
+}
+
+.icona::after {
     content: "";
-} */
+    display:block;
+    height: 5px;
+    width: 70px;
+    background-color: white;
+    position: absolute;
+    right:-70px;
+    top: 50%;
+    transform: translateY(-50% );
+}
 
-
+.icona::before {
+    content: "";
+    display:block;
+    height: 5px;
+    width: 70px;
+    background-color: white;
+    position: absolute;
+    left:-73px;
+    top: 50%;
+    transform: translateY(-50% );
+}
 
 /* ------------------------------------------------------------ */
 /* INIZIO NAVBAR */
