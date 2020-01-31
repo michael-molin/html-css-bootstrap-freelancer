@@ -4,45 +4,29 @@
 .glyphicon-star {
     font-size: 32px;
     line-height: 32px;
-    margin: 20px 0 24px;
+    padding: 15px 24px;
 }
 
-.icona {
-    display:inline-block;
+.icona::after, .icona::before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 100px;
+    background-color: white;
     position: relative;
+    bottom: 12px;
 }
 
-.icona::after {
-    content: "";
-    display:block;
-    height: 5px;
-    width: 70px;
-    background-color: white;
-    position: absolute;
-    right:-70px;
-    top: 50%;
-    transform: translateY(-50% );
-}
-
-.icona::before {
-    content: "";
-    display:block;
-    height: 5px;
-    width: 70px;
-    background-color: white;
-    position: absolute;
-    left:-73px;
-    top: 50%;
-    transform: translateY(-50% );
-}
-
-.icona-nera::after {
+.icona-nera::after, .icona-nera:before {
     background-color: #2c3e50;
+    color: #2c3e50;
 }
 
-.icona-nera:before {
-    background-color: #2c3e50;
+section {
+    padding-top:96px;
+    padding-bottom: 96px;
 }
+
 /* ------------------------------------------------------------ */
 /* INIZIO NAVBAR */
 
@@ -84,7 +68,6 @@
 .jumbotron {
     background-color: #1abc9c;
     color: white;
-    padding: 96px 0;
 }
 
 .jumbotron h1 {
@@ -110,9 +93,6 @@
 /* ------------------------------------------------------------ */
 /* INIZIO PORTFOLIO */
 
-.portfolio {
-    padding-bottom: 96px;
-}
 
 .portfolio h2 {
     font-size: 40px;
@@ -140,7 +120,6 @@
 .about {
     background-color: #1abc9c;
     color: white;
-    padding: 96px 0;
 }
 
 .about h2 {
@@ -180,3 +159,91 @@
 }
 /* ------------------------------------------------------------ */
 /* FINE ABOUT */
+/* ------------------------------------------------------------ */
+/* INIZIO FORM */
+
+.form-control {
+    font-size: 26px;
+    border:none;
+    height: 52px;
+    margin-bottom: 30px;
+}
+
+#form-message {
+    height: 120px;
+}
+
+#btn-send {
+    padding: 16px 28px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #1abc9c;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+#btn-send:hover {
+    background-color: #159a80;
+}
+/* ------------------------------------------------------------ */
+/* FINE FORM */
+/* ------------------------------------------------------------ */
+/*INIZIO FOOTER */
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    background-color: #2c3e50;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+footer h4 {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.btn-social {
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #2c3e50;
+    color: white;
+    height: 52px;
+    width: 52px;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.btn-social:hover {
+    color: #2c3e50;
+    background-color:white;
+}
+/* ------------------------------------------------------------ */
+/* FINE FOOTER */
+/* ------------------------------------------------------------ */
+/* INIZIO SUB-FOOTER */
+.sub-footer {
+    background-color: #1a252f;
+    color: white;
+    padding: 15px 0;
+}
+
+/* ------------------------------------------------------------ */
+/* FINE SUB-FOOTER */
+/* ------------------------------------------------------------ */
+/*INIZIO MEDIA */
