@@ -50,6 +50,7 @@ nav ul li {
 }
 
 .li-cambio-colore:hover {
+    text-decoration: none;
     color: #1abc9c;
 }
 
