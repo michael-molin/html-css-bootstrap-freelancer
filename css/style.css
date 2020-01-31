@@ -107,11 +107,9 @@ nav ul li {
     height: 100%;
     width: 100%;
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 
-.portfolio .row {
-    padding-bottom: 25px;
-}
 
 /* ------------------------------------------------------------ */
 /* FINE PORTFOLIO */
