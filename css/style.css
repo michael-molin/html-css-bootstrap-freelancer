@@ -30,19 +30,19 @@ section {
 /* ------------------------------------------------------------ */
 /* INIZIO NAVBAR */
 
-.menu {
+nav {
     background-color: #2c3e50;
     text-transform: uppercase;
     padding: 16px 16px 0 16px;;
 }
 
-.menu a {
+nav a {
     text-decoration: none;
     font-weight: 700;
     color: white;
 }
 
-.menu ul li {
+nav ul li {
         line-height: 24px;
         padding:16px;
         text-align: left;
@@ -68,6 +68,7 @@ section {
 .jumbotron {
     background-color: #1abc9c;
     color: white;
+    padding-top: 150px;
 }
 
 .jumbotron h1 {
