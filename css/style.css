@@ -300,4 +300,15 @@ footer p {
     .testo-logo {
         font-size: 20px;
     }
+    /* .menu-top {
+        display: none;
+        visibility: hidden;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    .burger {
+        display: none;
+        visibility: hidden;
+    }
 }
